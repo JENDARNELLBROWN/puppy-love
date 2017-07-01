@@ -1,0 +1,188 @@
+
+{font info:
+    family - Helvetica, Arial, sans-serif;
+    line-height - 1.6;
+  }
+
+section {
+  border-bottom: 5px solid #dddddd;
+  padding-bottom: 40px;
+
+}
+#logo img {
+  color: white;
+  max-width: 250px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  padding: 15px;
+
+}
+
+#logo {
+  position: fixed;
+	top: 0;
+	z-index: 200;
+  height: 50px;
+  width: 100%;
+  background-color: #ff8523;
+  padding-bottom: 15px;
+  }
+
+.main_navigation {
+  position: fixed;
+  background-color: #ff8523;
+  color: white;
+  height: 50px;
+  width: 100%;
+  top: 65px;
+  padding-top: 15px;
+  padding-left: 25px;
+  text-decoration: none;
+  z-index: 200;
+
+}
+
+.main_navigation a {
+  background-color: #ff8523;
+  color: white;
+  border-color: white;
+  border: 2px solid white;
+  border-radius: 6%;
+  margin: 15px 0;
+  padding:5px 25px;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+#page_content {
+  position: relative;
+  top: 100px;
+}
+
+header id {
+  border-width: medium;
+  margin: 30px;
+  padding-left: 40px;
+}
+
+h2 {
+  color: #1fabe5;
+  font-weight: bold;
+
+hr {
+  color: #dddddd;
+  width: 80%;
+  height: 8px;
+}
+
+}
+
+p a {
+  color: #1fabe5;
+  text-decoration-line: underline;
+}
+
+h3 {
+  color: #1fabe5;
+}
+
+li {
+  font-weight: bold;
+}
+
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #046c97;
+    padding: 5px;
+    text-align: left;
+}
+
+thead td {
+  height: 30px;
+  margin: auto;
+  background-color: #1fabe5;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+
+table, td: {
+    height: 60px;
+    background-color: white;
+    color: black;
+    text-align: left;
+
+}
+img {
+  max-width: 50px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+
+form {
+  background-color: #dddddd;
+  padding: 25px;
+  border-radius: 1%;
+}
+
+.name {
+  background-color: #ff8523;
+  color: white;
+  padding: 25px;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+input {
+  height: 40px;
+  width: 220px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 45px;
+  align-items: left;
+}
+
+.city_container {
+padding: 25px 0;
+}
+
+#bio {
+  width: 100%;
+  margin: 25px 0;
+}
+
+textarea {
+  padding: 10px;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  height: 45px;
+  width: 100px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  border-style: none;
+
+}
+/*colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
